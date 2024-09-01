@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react-jsx", // Use "react-jsx" for React 17+ or "react" for older versions
+    "strict": true
+  },
+  "include": ["src/**/*"], // Include all files in the src directory
+  "exclude": ["node_modules", "build"] // Exclude node_modules and build directories
+}
+
+
